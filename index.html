@@ -10,13 +10,13 @@
 </head>
 <body>
 <div class="wrapper">
-    <header class="header container">
-        <div class="header-head">
-            <div>
+    <header class="header">
+        <div class="header-head container">
+            <div class="header-section-none">
                 <nav class="header-head-menu">
                     <ul class="header-head-list">
                         <li class="header-head-item">
-                            <a class="header-head-link" href="#">Ремонт и отделка</a>
+                            <a class="header-head-link is-black" href="#">Ремонт и отделка</a>
                         </li>
                         <li class="header-head-item">
                             <a class="header-head-link" href="#">Дизайн и проектирование</a>
@@ -39,16 +39,16 @@
                             <a class="header-head-link" href="#">Контакты</a>
                         </li>
                         <li class="header-head-item">
-                            <a class="header-head-link" href="tel:+74951502493">+7 495 150 24 93</a>
+                            <a class="header-head-link is-black bold" href="tel:+74951502493">+7 495 150 24 93</a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </div>
-
-        <div>
+        <hr>
+        <div class="header-body container">
             <a class="header-logo" href="/">
-            <img class="header-logo-image" src="./images/logo.png" alt="Liongroup logo"/>
+            <img class="header-logo-image" src="./images/logo.png" alt="Lion group logo"/>
             </a>
             <nav class="header-menu">
                 <ul class="header-menu-list">
@@ -61,13 +61,19 @@
                     <li class="header-menu-item">
                         <a class="header-menu-link" href="/">Коммерческий ремонт</a>
                     </li>
-                    <li class="header-menu-item">
-                        <a class="header-menu-link" href="/">Калькулятор ремонта</a>
+                    <li class="header-menu-item is-button">
+                        <a class="header-menu-link is-light" href="/">Калькулятор ремонта</a>
                     </li>
                 </ul>
             </nav>
+            <button class="burger" id="burger" aria-label="Открыть меню">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </button>
         </div>
     </header>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
